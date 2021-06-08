@@ -21,19 +21,19 @@ ul {
     margin-right: 88px;
 }
 
-.illustration {
-    width: 50%;
-    position: absolute;
-    top: 95px;
-}
-
 .section1 {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+
+.illustration {
+    top: 95px;
+    justify-content: flex-start;
 }
 
 .text {
     margin: auto;
+    align-self:center;
     text-align: center;
     font-size: 4rem;
     line-height: 1rem;
@@ -46,4 +46,109 @@ button {
     width:212px;
     height:61px;
     border-radius: 5%;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.line {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.text2 {
+    color: white;
+    width: 100%;
+}
+
+.speech {
+     width:600px;
+     height: 144px;
+     text-align: center;
+     align-self: center;
+     font-size: 24px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    text-align: center;
+    width: 351px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    position: absolute;
+}
+
+.quotes {
+    text-align: center;
+}
+
+.food {
+    display: flex;
+}
+
+.foodtext {
+    width: 834px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.rectangles {
+    text-align: center;
+}
+
+.section4 {
+    display: flex;
+}
+.section4bis {
+    padding-left:115px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.section4_text {
+    font-style: 20px;
+    width: 483px;
+    height:150px;
+}
+
+.btn {
+    font-weight:bolder;
+}
+
+.explain {
+   margin: auto;
+   text-align: center;
+    width: 834px;
+}
+
+footer {
+    text-align: center;
 }
