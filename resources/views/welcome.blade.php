@@ -96,31 +96,48 @@
             </div>
             <div class="textwrapper">
                 <h2 class="section4bis">Host your next party with us !</h2>
-                <img src="img/Line(1).png" alt="" class="line">
-                <p class="section4_text">We'd love to host your big day. We offer catering for<br />business meetings, events or parties - small and<br />large. To order catering for your next meeting or<br />event, get started online (catering.mimiskitchen.com)<br />or call us at 571-323-9555.</p>
+                <div class="line5">
+                    <img src="img/Line(1).png" alt="">
+                </div>
+                <p class="section4_text">We'd love to host your big day. We offer catering for<br />business meetings, events or parties - small and<br />large. To order catering for your next meeting or<br />event, get started online (<span class="visit">catering.mimiskitchen.com</span>)<br />or call us at 571-323-9555.</p>
                 <button class="btn">REQUEST A QUOTE</button>
             </div>
         </div>
-        <h1 class="welcome">Giving back to the community</h1>
-        <div class="line">
+        <div class="community">
+            <h1 class="welcome">Giving back to the community</h1>
+        </div>
+        <div class="line2">
             <img src="img/Line.png">
         </div>
         <div class="explain">
-            <p>Everything that doesn't get served at the end of the day gets donated to Reston's Cornerstones Kitchen, a non-profit organization working to end hunger and address the root causes of poverty and food insecurity. Visit their site.</p>
+            <p class="explaintext">Everything that doesn't get served at the end of the day gets donated to Reston's<br />Cornerstones Kitchen, a non-profit organization working to end hunger and address the root<br />causes of poverty and food insecurity.<span class="visit"> Visit their site</span>.</p>
         </div>
-        <div class="section4">
-            <img src="img/image6.png" alt="">
-            <div class="section4bis">
-                <h2>Where to find us</h2>
-                <img src="img/Line(1).png" alt="">
-                <p>11150 Sunset Hills Road, Suite 210, Reston, VA 20190</p>
-                <p>571-323-9555</p>
-                <p>contact@mimiskitchen.com</p>
+        <div class="section5">
+            <img class="section5img" src="img/image6.png" alt="">
+            <div class="section5bis">
+                <p class="section5bistitle">Where to find us</p>
+                <div class="line5">
+                    <img src="img/Line(1).png" alt="">
+                </div>
+                <div class="section5text">
+                    <div class="wrapper">
+                        <img class="icon" src="img/Vector.png" alt="">
+                        <p>11150 Sunset Hills Road, Suite 210,<br />Reston, VA 20190</p>
+                    </div>
+                    <div class="wrapper">
+                        <img class="icon" src="img/Vector(1).png" alt="">
+                        <p>571-323-9555</p>
+                    </div>
+                    <div class="wrapper">
+                        <img class="icon" src="img/Group15.png" alt="">
+                        <p>contact@mimiskitchen.com</p>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
-            <p>1150 Sunset Hills Road, Suite 210, Reston, VA 20190 * 571-323-9555</p>
-            <p>Copyright 2019 Mimi's Kitchen</p>
+            <p>1150 Sunset Hills Road, Suite 210, Reston, VA 20190 &bull; 571-323-9555</p>
+            <p>Copyright &copy; 2019 Mimi's Kitchen</p>
         </footer>
     </body>
 </html>

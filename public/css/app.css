@@ -81,7 +81,7 @@ button {
 }
 
 .welcome {
-    font-family: 'Overpass', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
     font-family: 'Overpass Mono', monospace;
     line-height: 43.2px;
     font-weight: 700;
@@ -244,12 +244,91 @@ button {
     align-self:center;
 }
 
+.community {
+    display: flex;
+    justify-content: center;
+}
+
+.line2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
 .explain {
    margin: auto;
    text-align: center;
-    width: 834px;
+   padding-bottom: 112px;
+}
+
+.explaintext {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.visit {
+    opacity: 50%;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    height:  552px;
+    background-color: #f9f9f9;
+}
+
+.section5img {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-right: 132px;
+} 
+
+.section5bis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section5bistitle {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.line5 {
+    display: flex;
+    justify-content: start;
+}
+
+.section5text {
+    padding-top: 40px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.wrapper {
+    display: flex; 
+}
+
+.icon {
+    height:18px;
+    padding-top: 20px;
+    padding-right: 15px;
 }
 
 footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color: #000000;
+    opacity: 50%;
     text-align: center;
+    font-family: 'Overpass', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
 }
