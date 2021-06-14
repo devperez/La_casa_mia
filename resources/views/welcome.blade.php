@@ -11,6 +11,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 
     </head>
     <body>
@@ -59,17 +62,17 @@
             <h1 class="welcome">About Mimi's</h1>
         </div>
         <div class="about">
-            <div class="description2">
+            <div class="description2" id="reveal1">
                 <img src="img/Group16.png" alt="" />
                 <h3>OUR PROMISE</h3>
                 <p>We work with local farms to bring you<br /> the best ingredients.</p>
             </div>
-            <div class="description2">
+            <div class="description2" id="reveal1">
                 <img src="img/Group17.png" alt="" />
                 <h3>OUR KITCHEN</h3>
                 <p>Our kitchen uses organic olive oil only,<br /> no soy or peanut oil here!</p>
             </div>
-            <div class="description2">
+            <div class="description2" id="reveal1">
                 <img src="img/Group18.png" alt="" />
                 <h3>OUR INGREDIENTS</h3>
                 <p>We're committed to only using organic<br /> produce, grass-fed meats and eggs<br /> from freerange chickens.</p>
@@ -95,12 +98,12 @@
                 <img width="100%" src="img/image51.png" alt="">
             </div>
             <div class="textwrapper">
-                <h2 class="section4bis">Host your next party with us !</h2>
-                <div class="line5">
-                    <img src="img/Line(1).png" alt="">
+                <div>
+                    <p class="section4bis">Host your next party with us !</p>
+                    <img src="img/Line(1).png" alt="">  
+                    <p class="section4_text">We'd love to host your big day. We offer catering for<br />business meetings, events or parties - small and<br />large. To order catering for your next meeting or<br />event, get started online (<span class="visit">catering.mimiskitchen.com</span>)<br />or call us at 571-323-9555.</p>
+                    <button class="btn">REQUEST A QUOTE</button>
                 </div>
-                <p class="section4_text">We'd love to host your big day. We offer catering for<br />business meetings, events or parties - small and<br />large. To order catering for your next meeting or<br />event, get started online (<span class="visit">catering.mimiskitchen.com</span>)<br />or call us at 571-323-9555.</p>
-                <button class="btn">REQUEST A QUOTE</button>
             </div>
         </div>
         <div class="community">
@@ -139,5 +142,19 @@
             <p>1150 Sunset Hills Road, Suite 210, Reston, VA 20190 &bull; 571-323-9555</p>
             <p>Copyright &copy; 2019 Mimi's Kitchen</p>
         </footer>
+        <script>
+	    // init controller
+        $(document).ready(function() {
+	        var controller = new ScrollMagic.Controller();
+
+        // build scene
+        new ScrollMagic.Scene({
+		    triggerElement: "#reveal1",
+            triggerHook: 0.8,
+	    })
+	    .setClassToggle("#reveal1", "fade-in") // add class to reveal
+	    .addTo(controller);
+        });
+        </script>
     </body>
 </html>

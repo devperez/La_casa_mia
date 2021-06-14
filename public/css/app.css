@@ -144,6 +144,17 @@ button {
     grid-template-columns: repeat(3,1fr);
 }
 
+#reveal1 {
+    opacity:0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+
+#reveal1.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .description2 {
     text-align: center;
     font-weight: 400;
