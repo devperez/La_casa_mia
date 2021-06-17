@@ -14,6 +14,9 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+        <script src="js/app.js"></script>
 
     </head>
     <body>
@@ -58,7 +61,7 @@
                 <p class="speech">We try to keep our menu as fresh and healthy as<br /> possible by using local, seasonal vegetables. At the<br /> same time, we avoid using artificial ingredients and<br /> additives during our cooking process.</p>
             </div>
         </div>
-        <div class="abouttext">
+        <div class="abouttext" id="reveal1">
             <h1 class="welcome">About Mimi's</h1>
         </div>
         <div class="about">
@@ -142,19 +145,6 @@
             <p>1150 Sunset Hills Road, Suite 210, Reston, VA 20190 &bull; 571-323-9555</p>
             <p>Copyright &copy; 2019 Mimi's Kitchen</p>
         </footer>
-        <script>
-	    // init controller
-        $(document).ready(function() {
-	        var controller = new ScrollMagic.Controller();
-
-        // build scene
-        new ScrollMagic.Scene({
-		    triggerElement: "#reveal1",
-            triggerHook: 0.8,
-	    })
-	    .setClassToggle("#reveal1", "fade-in") // add class to reveal
-	    .addTo(controller);
-        });
-        </script>
+        
     </body>
 </html>

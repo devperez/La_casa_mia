@@ -44,6 +44,7 @@ ul {
 .section1 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 112px;
 }
 
 .illustration {
@@ -86,7 +87,6 @@ button {
     line-height: 43.2px;
     font-weight: 700;
     font-size: 36px;
-    padding-top: 112px;
 }
 
 .line {
