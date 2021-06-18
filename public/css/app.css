@@ -109,6 +109,7 @@ button {
 .section2 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    padding-bottom: 112px;
 }
 
 .text2 {

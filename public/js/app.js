@@ -34,8 +34,6 @@ $(document).ready(function(){
 });
 
 
-
-
 //Effet sur la section "About Mimi's"
 // init controller
 $(document).ready(function() {
@@ -49,4 +47,5 @@ $(document).ready(function() {
 	.setClassToggle("#reveal1", "fade-in") // add class to reveal
 	.addTo(controller);
 });
+
 

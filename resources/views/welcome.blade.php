@@ -16,6 +16,7 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+        <script src="js/gsap-member/gsap-member/minified/Draggable.min.js"></script>
         <script src="js/app.js"></script>
 
     </head>
@@ -41,7 +42,7 @@
                 <img class="illustration" src="img/image.png" alt="illustration" />
             <div class="text">
                 <p>We serve food<br />with a purpose .</p>
-                <button>EXPLORE OUR MENU</button>
+                <button id="btn">EXPLORE OUR MENU</button>
             </div>
         </div>
         <div class="Welcome">
